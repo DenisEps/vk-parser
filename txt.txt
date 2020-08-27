@@ -1,0 +1,20 @@
+const cookieParser = require('cookie-parser');
+    const session = require('express-session');
+
+    const FileStore = require('session-file-store')(session);
+
+    app.use(cookieParser());
+
+    app.use(session({
+        store: new FileStore(),
+        key: "user_sid",
+        secret: "anything",
+        resave: false,
+        saveUninitialized: false,
+        cookie: {
+            expires: 600000
+        }
+    })
+    );
+
+    in the route say: req.session.user = access_token

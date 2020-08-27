@@ -16,7 +16,7 @@ const getPostsIDs = async (publicName, token) => {
 // getPosts()
 
 const getUsers = async (publicName, token) => {
-    const response = await fetch(`https://api.vk.com/method/wall.get?&${publicName}&access_token=${token}&v=5.122`);
+    const response = await fetch(`https://api.vk.com/method/wall.get?&${publicName}&access_token=${token}&v=5.122&`);
     const resp = await response.json()
     const posts = resp.response.items;
     let userPosts = {}
