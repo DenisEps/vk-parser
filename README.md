@@ -23,6 +23,6 @@
 Ссылка на приложение: http://statyou.herokuapp.com/
 
 Над приложением работали:
-* (Денис Эпштейн)[https://github.com/DenisEps]
-* (Иван Каштанов)[https://github.com/kashtn]
-* (Егор Богданов)[https://github.com/YegorBogdanov]
+* [Денис Эпштейн](https://github.com/DenisEps)
+* [Иван Каштанов](https://github.com/kashtn)
+* [Егор Богданов](https://github.com/YegorBogdanov)
