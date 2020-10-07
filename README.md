@@ -1,28 +1,31 @@
 ![screenshot](readme-assets/Logo3.png)
 
-Приложение для составление рейтинга самых активных пользователей определенной группы ВК по лайкам, комментариям и репостам.
 
-### Выбор темы:
-Выбираем тему (светлую или темную)
+#### [Click here to see the app](http://statyou.herokuapp.com/)
+
+##### The app can form a rating of the most active users of any given group on VK.com
+
+### Light or dark theme:
 
 ![screenshot](readme-assets/Theme.gif)
 
-### Аутентификация:
-Проходим аутентификацию через Vkontakte внутри приложения.
+### Authentication:
+VK api used to authenticate users
 
 ![screenshot](readme-assets/Auth.gif)
 
-### Начало работы:
-* Вводим в поле "Group/Public link" адрес интересующей группы
-* Выбираем количество постов, которое надо проанализировать и тип активностей пользователей, по которым необходимо произвести поиск (лайк, комментарий, репост).
+### Start:
+#### 1. Copy/paste the link of any (non-private) group
+#### 2. Choose the number of posts to analyze, what type of users' activities to include in results (likes, comments, reposts)
 
-Получаем список наиболее активных участников группы по выбранным параметрам. Можно нажать на его/ее ID и перейти на профиль VK.
+Here are the results of the most active users according to the parameters you have selected previously.
+You can click on the ID of any user and be redirected to his/her VK profile page.
 
 ![screenshot](readme-assets/Final.gif)
 
-Ссылка на приложение: http://statyou.herokuapp.com/
+Click here to view the app: http://statyou.herokuapp.com/
 
-Над приложением работали:
-* [Денис Эпштейн](https://github.com/DenisEps)
-* [Иван Каштанов](https://github.com/kashtn)
-* [Егор Богданов](https://github.com/YegorBogdanov)
+Team:
+* [Denis](https://github.com/DenisEps)
+* [Ivan](https://github.com/kashtn)
+* [Egor](https://github.com/YegorBogdanov)
