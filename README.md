@@ -4,7 +4,6 @@
 
 ## StatMe
 #### App that can form a rating of the most active users of any given group on VK.com
-#### [Click here to see it in action](http://statyou.herokuapp.com/)
 
 ### Light or dark theme:
 ![screenshot](readme-assets/Theme.gif)
@@ -20,9 +19,10 @@ VK api used to authenticate users
 
 Here are the results of the most active users according to the parameters you have selected previously.
 You can click on the ID of any user and be redirected to his/her VK profile page.
+
 ![screenshot](readme-assets/Final.gif)
 
-Click here to view the app: http://statyou.herokuapp.com/
+#### [Click here to see it in action](http://statyou.herokuapp.com/)
 
 Team:
 * [Denis](https://github.com/DenisEps)
